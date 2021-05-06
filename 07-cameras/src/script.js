@@ -1,11 +1,11 @@
-import "./style.css";
-import * as THREE from "three";
+import './style.css';
+import * as THREE from 'three';
 
 /**
  * Base
  */
 // Canvas
-const canvas = document.querySelector("canvas.webgl");
+const canvas = document.querySelector('canvas.webgl');
 
 // Sizes
 const sizes = {
@@ -19,7 +19,7 @@ const scene = new THREE.Scene();
 // Object
 const mesh = new THREE.Mesh(
   new THREE.BoxGeometry(1, 1, 1, 5, 5, 5),
-  new THREE.MeshBasicMaterial({ color: "coral" })
+  new THREE.MeshBasicMaterial({ color: 'coral' })
 );
 scene.add(mesh);
 
